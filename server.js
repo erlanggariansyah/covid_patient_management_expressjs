@@ -6,7 +6,7 @@ require("dotenv").config()
 app.use(express.urlencoded({extended: true})); 
 app.use(express.json());
 app.use(routes);
-
+ 
 const server = app.listen(process.env.APP_PORT, () => console.log(`Server Running in Port ${process.env.APP_PORT}`))
 
 process.on('SIGTERM', () => {
