@@ -1,0 +1,33 @@
+{
+  "name": "covid_patient_management_expressjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --max-old-space-size=2048 server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/erlanggariansyah/covid_patient_management_expressjs.git"
+  },
+  "author": "Erlangga Riansyah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erlanggariansyah/covid_patient_management_expressjs/issues"
+  },
+  "homepage": "https://github.com/erlanggariansyah/covid_patient_management_expressjs#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-validator": "^6.14.2",
+    "helmet": "^6.0.1",
+    "jsonwebtoken": "^9.0.0",
+    "mysql2": "^3.0.1",
+    "nodemon": "^2.0.20",
+    "password-hash": "^1.2.2",
+    "sequelize": "^6.28.0",
+    "sequelize-cli": "^6.5.2"
+  }
+}
